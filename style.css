@@ -101,10 +101,17 @@ ul {
 
 .div-card1 {
   margin: 3px auto;
-  padding: 30px; }
+  padding: 30px;
+  gap: 10px; }
 
 .itemPrincipal {
   text-align: center; }
 
 .ajusteCard {
   height: 225px; }
+
+.card1 {
+  margin: 21px auto; }
+
+.ajusteCard2 {
+  margin: 30px auto; }
