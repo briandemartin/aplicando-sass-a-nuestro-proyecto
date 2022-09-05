@@ -1,6 +1,6 @@
 /* inicio index*/
 .body-index{
-    background-color:gray;
+    background-color: #24262b;
 }
 img{
     width: 40px;
@@ -34,8 +34,9 @@ body{
 ul{
 	list-style: none;
 }
+$color-footer: #24262b;
 .footer{
-	background-color: #24262b;
+	background-color: $color-footer;
     padding: 70px 0;
 }
 .footer-col{
@@ -89,19 +90,8 @@ ul{
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
+@import url(./imports/_media.scss);
 
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
 /*fin index*/
 /* inicio menu*/
 .body-menu {

@@ -1,6 +1,7 @@
 /* inicio index*/
+@import url(./imports/_media.scss);
 .body-index {
-  background-color: gray; }
+  background-color: #24262b; }
 
 img {
   width: 40px; }
@@ -85,16 +86,6 @@ ul {
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease; }
-
-/*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px; } }
-
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%; } }
 
 /*fin index*/
 /* inicio menu*/
