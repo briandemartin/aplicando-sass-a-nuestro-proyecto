@@ -1,3 +1,4 @@
+/* inicio index*/
 .body-index {
   background-color: gray; }
 
@@ -95,7 +96,8 @@ ul {
   .footer-col {
     width: 100%; } }
 
-/*menu*/
+/*fin index*/
+/* inicio menu*/
 .body-menu {
   background-color: #24262b; }
 
@@ -115,3 +117,10 @@ ul {
 
 .ajusteCard2 {
   margin: 30px auto; }
+
+/*fin menu*/
+/*inicio pedir 1*/
+.contenedorPedido {
+  margin: 30px; }
+
+/*fin pedir 1*/
