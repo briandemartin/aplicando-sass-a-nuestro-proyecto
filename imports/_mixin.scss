@@ -1,0 +1,9 @@
+@mixin parrafos {
+    font-family: 'calibri';
+    font-size: 3opx;
+    text-align: center;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}

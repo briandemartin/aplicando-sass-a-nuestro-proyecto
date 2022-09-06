@@ -1,5 +1,7 @@
 /* inicio index*/
 @import url(./imports/_media.scss);
+@import url(./imports/_map-get.scss);
+@import url(./imports/_mixin.scss);
 .body-index {
   background-color: #24262b; }
 
