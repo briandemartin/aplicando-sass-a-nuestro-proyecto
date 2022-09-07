@@ -135,39 +135,3 @@ $color-footer: #24262b;
 @import url(./imports/_map-get.scss);
 @import url(./imports/_mixin.scss);
 
-.body-desafio {
-	background-color: #24262b;
-}
-
-.container {  display: grid;
-	grid-template-columns: 2.7fr 2.3fr 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	gap: 5px 5px;
-	grid-auto-flow: column;
-	grid-template-areas:
-	  ". img img img img img ."
-	  ". img img img img img ."
-	  "compra compra compra compra compra compra compra"
-	  ". . . . . . .";
-  }
-  
-  .div-img { 
-	grid-area: img;
-	display: flex;
-	justify-content: center;
-}
-
-.img1 {
-	height: 300px;
-	width: 300px;
-	margin: 30px;
-}
-  
-.div-compra { 
-	color: #ffffff;
-	grid-area: compra; 
-	text-align: center;
-	border: 3px solid black ;
-}
-  
-
